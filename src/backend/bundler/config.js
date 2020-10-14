@@ -78,6 +78,7 @@ const plugins = ({ babelConfig = {}, commonJSConfig = {}, minify = false } = {})
         'node_modules/react-redux/node_modules/react-is/index.js': reactIsExport,
         '@material-ui/utils/node_modules/react-is': reactIsExport,
         'node_modules/react-is/index.js': reactIsExport,
+        'node_modules/esrever/esrever.js': ['reverse'],
       },
       ...commonJSConfig,
     }),
